@@ -4,6 +4,10 @@ source('data_acquisition.R')
 source('data_analysis.R')
 source('data_viz.R')
 
+list.of.packages <- c("ggplot2", "Rcpp","data.table","shiny","geniusr","spotifyr","tidytext","tidyverse","topicmodels","wordcloud","reshape2","igraph","ggraph")
+new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+if(length(new.packages)) install.packages(new.packages)
+
 server <- function(input, output) {
 
   event_catch <- eventReactive(input$action, {
