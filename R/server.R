@@ -16,7 +16,12 @@ server <- function(input, output) {
     search_now<-get_artist_songs_in_df(current_song[2])
     lyrics<-get_lyric_from_song(current_song[1],search_now)
     if(is.null(lyrics)){
-      lyrics<-get_lyrics_from_songs_df(search_now)
+      showModal(modalDialog(
+        title = "Song not Found",
+        paste0("It seems that this song is not on Genius. Try when you are listening a song that's on Genius"),
+        easyClose = TRUE,
+        footer = NULL
+      ))
     }
     return(list(lyrics,current_song))
   })
