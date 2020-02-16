@@ -1,5 +1,5 @@
-require(shiny)
-require(gridExtra)
+#require(shiny)
+#require(gridExtra)
 #source('data_acquisition.R')
 #source('data_analysis.R')
 #source('data_viz.R')
@@ -7,9 +7,9 @@ require(gridExtra)
 
 
 server <- function(input, output) {
-  list.of.packages <- c("ggplot2", "Rcpp","data.table","shiny","geniusr","spotifyr","tidytext","tidyverse","topicmodels","wordcloud","reshape2","igraph","ggraph")
-  new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-  if(length(new.packages)) install.packages(new.packages)
+  #list.of.packages <- c("ggplot2", "Rcpp","data.table","shiny","geniusr","spotifyr","tidytext","tidyverse","topicmodels","wordcloud","reshape2","igraph","ggraph")
+  #new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+  #if(length(new.packages)) install.packages(new.packages)
   event_catch <- eventReactive(input$action, {
     #runif(input$n)
     current_song<-get_my_current_play()

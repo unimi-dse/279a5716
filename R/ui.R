@@ -1,4 +1,4 @@
-require(shiny)
+#require(shiny)
 
 ui <- fluidPage(
   titlePanel("Gentiment"),

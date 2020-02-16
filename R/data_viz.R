@@ -1,10 +1,10 @@
-library(tidytext)
-library(tidyverse)
-library(ggplot2)
-library(wordcloud)
-library(reshape2)
-library(igraph)
-library(ggraph)
+#library(tidytext)
+#library(tidyverse)
+#library(ggplot2)
+#library(wordcloud)
+#library(reshape2)
+#library(igraph)
+#library(ggraph)
 
 #' Plot Top 10 words of a song
 #'

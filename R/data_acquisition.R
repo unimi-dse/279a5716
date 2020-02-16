@@ -1,7 +1,7 @@
-require(data.table)
-require(geniusr)
-require(spotifyr)
-require(attempt)
+#require(data.table)
+#require(geniusr)
+#require(spotifyr)
+#require(attempt)
 
 Sys.setenv(GENIUS_API_TOKEN = '93UQJDr8DuqNJO5O23cKwdmo9BI1xqYQJrIB6iYEy21-toFaDOt_PxKr9kfM7T9s')
 

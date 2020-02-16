@@ -1,6 +1,6 @@
-library(tidytext)
-library(tidyverse)
-library(topicmodels)
+#library(tidytext)
+#library(tidyverse)
+#library(topicmodels)
 
 #' Lyrics tokenizer
 #'
