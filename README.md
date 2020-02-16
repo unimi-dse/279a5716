@@ -5,13 +5,13 @@ It get's the currently played song on spotify and returns a lyric analysis
 Powered by Genius and Spotify API.
 
 ## Installation
-Install all the dependencies(if you run these commands below and get an error citing a specific package,maybe you should install it).
+Install all the dependencies(if you run these commands below and get an error citing a specific package,maybe you should install it).And then run these:
 ```R
 Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")
 devtools::install_github('unimi-dse/279a5716')
 ```
 ## Usage
-
+Run these:
 ```R
 library(musicdashboaRd2)
 run_app()
@@ -25,7 +25,9 @@ Error in : parse error: premature EOF
                                        
                      (right here) ------^
 ```
-
+## Use suggestions
+- Listen to songs that defenitely are on Genius (mainly american rap songs: so go with Kanye West, Kendrick Lamar or some other great contemporary Lyricist).
+- The analysis are english based (so try with english language songs).
 ## Known bugs
 Album cover shows sometimes(related to shiny, a bug)
 Sometimes the search works poorly (maybe rate limits of the genius api?)
