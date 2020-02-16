@@ -25,6 +25,7 @@ Error in : parse error: premature EOF
                                        
                      (right here) ------^
 ```
+When you want to exit the shiny app press ESC on terminal
 ## Use suggestions
 - Listen to songs that defenitely are on Genius (mainly american rap songs: so go with Kanye West, Kendrick Lamar or some other great contemporary Lyricist).
 - The analysis are english based (so try with english language songs).
