@@ -30,8 +30,9 @@ When you want to exit the shiny app press ESC on terminal
 - Listen to songs that defenitely are on Genius (mainly american rap songs: so go with Kanye West, Kendrick Lamar or some other great contemporary Lyricist).
 - The analysis are english based (so try with english language songs).
 ## Known bugs
-- Album cover shows sometimes(related to shiny, a bug)
+- Album cover don't shows sometimes(related to shiny, a bug)
 - Sometimes the search works poorly (maybe rate limits of the genius api?)
+- It takes a while to load for artist with a long discography(geniusr package is very slow in fetching, maybe it scapes data?).
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
