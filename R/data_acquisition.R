@@ -7,8 +7,8 @@ Sys.setenv(GENIUS_API_TOKEN = '93UQJDr8DuqNJO5O23cKwdmo9BI1xqYQJrIB6iYEy21-toFaD
 
 Sys.setenv(SPOTIFY_CLIENT_ID = '74436a745c24482b90025891795a660b')
 Sys.setenv(SPOTIFY_CLIENT_SECRET = 'dc93d19fc41f46d4b6c8cd4c2068eda0')
-access_token <- get_spotify_access_token()
-auth_code<-get_spotify_authorization_code()
+#access_token <- get_spotify_access_token()
+#auth_code<-get_spotify_authorization_code()
 
 #' Retrieve songs of artist
 #'
