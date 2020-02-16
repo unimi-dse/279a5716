@@ -1,30 +1,28 @@
-Package: musicdashboaRd
+Package: musicdashboaRd2
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Dashboard for currently playing music on spotify. powered by genius
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Naseem Sadki
+Maintainer: Naseem Sadki <naseem.sadki@studenti.unimi.it>
+Description: 
+License: No one
 Depends:
-    R(>= 3.5.0)
-Imports:
-    data.table,
-    geniusr,
-    spotifyr,
-    attempt,
-    tidytext,
-    tidyverse,
-    topicmodels,
-    ggplot2,
-    wordcloud,
-    reshape2,
-    igraph,
-    ggraph,
-    shiny,
-    gridExtra
-Remote:
+    R(>= 3.5.0),
+    spotifyr(>= 2.1.0),
+    geniusr(>= 1.1.0),
+    tidyverse(>= 1.3.0),
+    tidytext(>= 0.2.2),
+    data.table(>= 1.12.8),
+    attempt(>= 0.3.0),
+    topicmodels(>= 0.2),
+    ggplot2(>= 3.2.1),
+    wordcloud(>= 2.6),
+    reshape2(>= 1.4.3),
+    igraph(>= 1.2.4),
+    ggraph(>= 2.0.1),
+    shiny(>= 1.4.0),
+    gridExtra(>= 2.3)
+Remotes:
     charlie86/spotifyr,
     ewenme/geniusr
 Encoding: UTF-8

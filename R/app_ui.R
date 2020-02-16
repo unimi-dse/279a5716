@@ -1,10 +1,10 @@
 require(shiny)
 
-ui <- fluidPage(
-  titlePanel("Gentiment"),
+app_ui <- fluidPage(
+  titlePanel("musicdashboaRd2"),
   sidebarLayout(
     sidebarPanel(
-      actionButton("action", "Action"),
+      actionButton("action", "Get currently playing song"),
       htmlOutput("albumCover"),
       textOutput("songTitle"),
       textOutput("artist"),

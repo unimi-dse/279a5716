@@ -6,7 +6,11 @@
 
 
 
-server <- function(input, output) {
+app_server <- function(input, output) {
+  Sys.setenv(GENIUS_API_TOKEN = '93UQJDr8DuqNJO5O23cKwdmo9BI1xqYQJrIB6iYEy21-toFaDOt_PxKr9kfM7T9s')
+  
+  Sys.setenv(SPOTIFY_CLIENT_ID = '74436a745c24482b90025891795a660b')
+  Sys.setenv(SPOTIFY_CLIENT_SECRET = 'dc93d19fc41f46d4b6c8cd4c2068eda0')
   #list.of.packages <- c("ggplot2", "Rcpp","data.table","shiny","geniusr","spotifyr","tidytext","tidyverse","topicmodels","wordcloud","reshape2","igraph","ggraph")
   #new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
   #if(length(new.packages)) install.packages(new.packages)
